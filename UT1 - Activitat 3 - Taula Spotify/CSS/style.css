@@ -1,0 +1,64 @@
+/* ******** Estilos generales de la página  ******** */
+body{
+    background-color:#111313;
+    color:white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+}
+
+/* ************  Estilos de la tabla *************** */
+
+table{
+    width: 80%;
+    border-collapse: collapse;
+}
+
+/* *******  Estilos encabezado de la tabla  ******* */
+
+thead tr th{
+    border-bottom: solid 1px #273030;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: small;
+    text-align: left;
+    background-color: rgb(16, 34, 34);
+    color: rgb(255, 255, 255);
+}
+
+/* *******  Estilos fila album  ******* */
+
+tbody tr:hover{
+    background-color: rgb(56, 56, 56);
+}
+
+td{
+    line-height: 20px;
+    color:#b3b3b3;
+    font-weight: bolder;
+}
+
+.numero{
+    font-size: 0.9rem;
+    font-weight: bold;
+    color: white;
+}
+
+.tema{
+    color: white;
+    font-weight: bolder;
+    font-size: 1.1rem;
+
+}
+.tema span{
+    display: block;
+    width: 100%;
+    font-size: 0.7rem;
+    color:#9e9e9e;
+    }
+
+.foto{
+    width: 80px;
+    vertical-align: middle;
+}
+
+

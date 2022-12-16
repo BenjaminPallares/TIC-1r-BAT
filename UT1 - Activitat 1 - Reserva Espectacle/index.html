@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Act1 - Reserva Espectacle</title>
+    <link rel="stylesheet" href="./CSS/styles.css">
+    <link rel="icon" href="./IMG/SonAmar-Logo-Black-003.png">
+    <img src="./IMG/SonAmar-Logo-Black-003.png" alt="" height="180" width="220" class="logo">
+  </head>
+
+  <body>
+    <h1>CONFIRMACIÓN DE LA RESERVA</h1>
+    <table>
+        <caption>INFORMACIÓN DE LA RESERVA</caption>
+        <tr>
+            <td class="ref">Referencia:</td>
+            <td class="dato">1461581</td>
+        </tr>
+        <tr>
+            <td class="ref">Fecha (Hora)</td>
+            <td class="dato">30/8/21 (17:19)</td>
+        </tr>
+    </table>
+
+    <table>
+        <caption>DETALLES DEL CLIENTE</caption>
+        <tr>
+            <td class="ref">Nombre:</td>
+            <td class="dato">Mr. Juan Pérez</td>
+        </tr>
+        <tr>
+            <td class="ref">E-mail:</td>
+            <td class="dato">juan@gmail.com</td>
+        </tr>
+        <tr>
+            <td class="ref">Teléfono:</td>
+            <td class="datotel">+34 692 38 34 55</td>
+        </tr>
+    </table>
+
+    <h1>DETALLES DE LA RESERVA</h1>
+    <hr>
+
+    <h4>Reserva 1</h4>
+    <p class="text">Exhibit, Son Amar, 03th September @ 10:00 PM</p>
+   
+   
+    <!-- ************ USANDO ROWSPAN EN EL TÍTULO *************** -->
+
+    <table class="tabla2">
+        <tr>
+            <td rowspan="5"><img src="./IMG/QR.png" class="qr"></td>
+            <th class="cant">CANTIDAD</th>
+            <th class="art">ARTÍCULO</th>
+            <th class="cant">PRECIO</th>
+            <th class="cant">SUB TOTAL</th>
+        </tr>
+        
+        <tr>
+            <td class="cant">2</td>
+            <td class="art">VIP
+                 <span>102 - TABLE B6</span></td>
+            <td class="cant">95€</td>
+            <td class="cant">190€</td>
+        </tr>     
+    </table>
+
+    <!-- ************* DE UNA MANERA MÁS COMPLEJA *************** -->
+
+    <h2>DE OTRA MANERA</h2>
+
+    <div class="row">
+        <div class="column1">
+            <img src="./IMG/QR.png" class="qr">
+        </div>
+
+        <div class="column2">
+            <table class="tabla2">
+                <tr>
+                    <th class="cant">CANTIDAD</th>
+                    <th class="art">ARTÍCULO</th>
+                    <th class="cant">PRECIO</th>
+                    <th class="cant">SUB TOTAL</th>
+                </tr>
+
+                <tr>
+                    <td class="cant">2</td>
+                    <td class="art">VIP
+                         <span>102 - TABLE B6</span></td>
+                    <td class="cant">95€</td>
+                    <td class="cant">190€</td>
+                </tr>     
+            </table>
+        </div>
+    </div>
+
+    <hr>
+
+    <table class="tabla3">
+        <tr>
+            <td class="final">GASTOS DE GESTIÓN:</td>
+            <td class="precio_final">4.00€</td>
+        </tr>
+    
+        <tr>
+            <td class="final">RESERVA TOTAL:</td>
+            <td class="precio_final">194.00€</td>
+        </tr>
+    
+    
+    </table>
+    
+    
+  </body>

@@ -1,0 +1,49 @@
+
+header {
+    overflow: hidden;
+    position:fixed;
+    top:0;
+    height: 100px;
+    width: 100%;
+    font-family: 'Titan One';
+    text-shadow: 2px 2px 5px black;
+    text-align: center;
+    font-size: 2rem;
+    color:rgb(255, 255, 0);
+    background-color: white;
+}
+
+main
+{
+    background-image: url(../IMG/fondo-matrix.jpg);
+}
+
+.contenido{
+    margin-top: 100px;
+    margin-left: 330px;
+    margin-right: 350px;
+    padding-left: 30px;
+    text-align: center;
+    background-color: black;
+    color:lime;
+}
+
+.ordenador{
+    position: relative;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: -10px;
+    
+}
+
+.pantalla{
+    position: absolute;
+    top:240px;
+    left:540px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1.2rem;
+    line-height: 5px;
+    text-align: left;
+    color: lime;
+}
