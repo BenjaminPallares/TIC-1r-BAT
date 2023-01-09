@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <title>Javascript: Numbers</title>
+    </head>
+    <body>
+        <h1>Javascript: Numbers</h1>
+        <p>Abre la consola para ver los resultados</p>
+        <script type="text/javascript">
+
+            // typeof
+            let num = 20;
+                console.log(typeof num);
+                //document.write(`El tipo de num es ${typeof num}<br>`);
+
+            // NaN
+            const notNumber = 'asfda';
+                console.log(typeof notNumber);
+                //document.write(`El tipo de notNumber es ${typeof notNumber}`);
+
+            // isNaN()
+                console.log(typeof NaN);
+                console.log(isNaN(NaN));
+                console.log(isNaN('whatever'));
+                console.log(isNaN("12"));
+                console.log(isNaN(12));
+                
+            // toString()
+            // -> Convertir número en cadena
+            let number = 100.1164123412;
+                console.log(number.toString());
+                console.log(typeof number.toString());
+
+            // .toFixed() -> Redondear a cierto número de decimales
+                console.log(number.toFixed(2));
+        </script>
+    </body>
+</html>

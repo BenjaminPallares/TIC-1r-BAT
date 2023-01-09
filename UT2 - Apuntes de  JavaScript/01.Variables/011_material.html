@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <title>Javascript: Variables</title>
+    </head>
+    <body>
+        <script type="text/javascript">
+            // variables globales
+            const message = 'Hello world!'
+            console.log(message)
+            
+            
+            // CONST CAN'T CHANGE THE VALUE
+            const name = 'Cristina';
+            console.log(name);
+            console.error('ERROR'); // name = 'Isabel';
+            
+            // LET/VAR CAN CHANGE THE VALUE
+            let text = 'Text';
+            var whatever = 'Whatever';
+            console.log(whatever)
+            console.log(text)
+            text = 'Modified Text'
+            whatever = 'Modified Whatever';
+            console.info('-- valores modificados correctamente');
+            console.log(whatever)
+            console.log(text)
+
+            // variables locales -> const y let
+            if (true) {
+                console.info("--- Dentro del bloque");
+                const text = 'whatever'
+                console.log(text)
+            }
+            console.info('--- Fuera del bloque');
+            console.error('ERROR'); // console.log(text);
+        </script>
+
+    </body>
+</html>
