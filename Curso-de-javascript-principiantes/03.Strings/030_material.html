@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <title>Javascript: Strings</title>
+    </head>
+    <body>
+        <script type="text/javascript">
+            /*
+             * Es el momento de gestionar cadenas de texto
+             */
+            // concatenar texto
+            console.log('Hello ' + 'World')
+            
+            const name1 = 'Richard';
+            console.log('Hello ' + name1);
+
+            // template literals 
+            // -> Insertar variables en cadenas de texto 
+            const name2 = 'Cristina';
+            console.log(`Hello ${name2} whatever`)
+            
+            // typeof
+            console.log(typeof name2)
+           
+            // .length
+            console.log(name2.length)
+            
+            // .includes()
+            console.log(name2.includes('asdfasdf'))
+            
+            // .slice(start, end)
+            console.log(name2.slice(2, 5))
+            
+            // .replace(‘este texto', ‘por este otro’)
+            console.log(name2.replace('na', 'asdfas'))
+            
+            // .trim() 
+            // -> Elimina espacios antes y después de la cadena
+            const text = '   as dfas a asdfasd a    '
+            console.log(text.trim())
+           
+            // .split(‘,’)
+            const geolocation = 'Calle whatever. 7. 1D'
+            console.log(geolocation.split('.'))
+        </script>
+    </body>
+</html>
