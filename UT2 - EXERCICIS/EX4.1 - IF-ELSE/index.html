@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <title>Javascript: Calcul nota</title>
+        <link rel="stylesheet" href="./CSS/styles.css">
+        <!-- <script type="/text/javascript" src="./JS/script.js"></script>   -->
+    
+    </head>
+    <body>
+    
+        <div id="taula">
+            <h2>LA TEVA NOTA</h2>
+
+            <p>Quina nota has tret?</p>
+            <input id="nota">
+            
+            <br><br>
+            <button type="button" onclick="FuncioCalcula()">VEREDICTE</button>
+            
+            <p id="sortida"></p>
+
+        </div>
+        
+        <script>
+            function FuncioCalcula() {
+                let result = document.getElementById("nota").value;
+                if (result < 5) {
+                    console.log(`Has suspès`);
+                    document.getElementById("sortida").innerHTML = `Has suspès`;
+                } else {
+                    console.log(`Has aprovat`);
+                    document.getElementById("sortida").innerHTML = `Has aprovat`;
+                }
+            }
+
+        </script>
+   
+    </body>
+
+</html>
