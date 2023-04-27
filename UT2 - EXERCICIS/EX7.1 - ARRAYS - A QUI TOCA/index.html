@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <title>A QUI TOCA?</title>
+    <link href="./CSS/styles.css" rel="stylesheet">
+</head>
+
+<body>
+    <h1>A QUI TOCA ARA?</h1>
+    <main>
+           
+        <div class="ventana-izquierda">
+            <p class="titulo-ventana-formulario">NOU JUGADOR</p>
+            <div class="container">
+                <form>
+                    <!-- <label for="fname">Nom</label> -->
+                    <input type="text" id="camp_nom" name="nombre" placeholder="El teu nom...">
+                    
+                    <!-- <input type="submit" value="AFEGIR"> -->
+                    <button class="boton" type="button" onclick="AfegirJugador()">AFEGIR</button>
+
+                </form>
+            </div>
+        </div>
+
+
+        <div class="ventana-derecha">
+            <p class="titulo-ventana-formulario">LLISTAT DE JUGADORS</p>
+            <div class="container">
+                <p id="jugadors"></p>
+            </div>
+        </div>
+
+        <div class="ventana-inferior">
+            <p class="titulo-ventana">ARA JUGA</p>
+            <div class="container">
+                <p id="jugador_actual"></p>
+                <button class="boton2" type="button" onclick="NextPlayer()">SEGÜENT</button>
+            </div>
+
+        </div>
+
+    </main>
+
+
+    <script src="./JS/script.js"></script>
+
+</body>
+
+</html>

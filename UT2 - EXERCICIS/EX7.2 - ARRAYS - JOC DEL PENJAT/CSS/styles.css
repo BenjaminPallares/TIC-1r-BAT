@@ -1,0 +1,141 @@
+body {
+    background-image: url(../IMG/fondo2.jpg);
+    background-size: 100%;
+   
+}
+
+main{
+    display:flex;
+    margin-top: 10px;    
+}
+
+h1{
+    font-size: 2.4rem;
+    font-weight: bolder;
+    margin-bottom: 2rem;
+    text-align: center;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-shadow: rgb(11, 11, 0) 1px 0 10px;
+    color: rgb(244, 240, 7);
+}
+
+.ventana-dibujo{
+    background-color: rgb(20, 84, 21);
+
+    position:absolute;
+
+    top:90px;
+    left:420px;
+
+    width: 450px;
+    height: 510px;
+    
+    padding: 30px 30px;
+
+    border-radius: 5%;
+}
+
+.titulo-ventana-derecha,
+.titulo-ventana {
+    text-align: center;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 1.8rem;
+    font-weight: bold;
+    color: rgb(255, 255, 255);
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.titulo-ventana {
+  margin-top: 10px;
+  margin-bottom: 0px;
+
+  padding-top: 0px;
+}
+
+.container {
+    vertical-align: middle;
+    font-size: 1rem;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: rgb(255, 252, 252);
+    text-align: center;
+}
+
+input[type=text] {
+    width: 100%;
+    font-size: 1rem;
+    padding: 12px;
+    border: 5px solid rgb(204, 204, 204);
+    border-radius: 2px;
+    box-sizing: border-box;
+    margin-top: 16px;
+    margin-bottom: 26px;
+    resize: vertical;
+    color: black;
+    text-align: center;
+  }
+
+  /* input[type=submit], */
+  .boton {
+    background-color:  #2196F3;
+    font-size: 1rem;
+    font-weight: bolder;
+    color: white;
+    padding: 15px 20px;
+    position: relative;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  /* input[type=submit]:hover, */
+  .boton:hover {
+    background-color: #bb095c;
+  }
+
+  #final_fallo,
+  #final_acierto {
+    display: none;
+  }
+
+/* ********************************************** */
+
+  .ventana-derecha {
+    position:absolute;
+    background-color: rgb(20, 161, 22);
+    width: 250px;
+    height: 550px;
+    top:100px;
+    left:1000px;
+    padding: 0px 30px;
+    border-radius: 5%;
+  }
+
+  #palabra,
+  #letra,
+  #lista-letras {
+    background-color: antiquewhite;
+    color: black;
+    font-size: 1.2rem;
+    padding: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 10px;
+
+  }
+
+#palabra {
+    margin-left: auto;
+    margin-right: auto;
+    width: 300px;
+  }
+
+#letra {
+  width: 50px;
+  height: 50px;
+}
+
+#lista-letras {
+  width: 150px;
+  height: 350px;
+}

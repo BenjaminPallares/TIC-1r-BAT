@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <title>JOC DEL PENJAT</title>
+    <link href="./CSS/styles.css" rel="stylesheet" />
+  </head>
+
+  <!-- AL CARGAR LA PÁGINA LLAMAMOS LA FUNCIÓN Inicializar() -->
+  <body onload="Inicializar()">
+    <h1>JOC DEL PENJAT</h1>
+    <main>
+      <div class="ventana-dibujo">
+        <div class="container">
+          <img src="./IMG/A0.png" alt="" id="imagen" />
+          <p id="palabra"></p>
+
+          <form id="formulario" onsubmit="return false;">
+            <input type="text" id="letra" name="letter" placeholder="" />
+            <br />
+            <button class="boton" id="boton-enviar" type="button" onclick="Enviar()">
+              ENVIAR
+            </button>
+            <br />
+          </form>
+
+          <!-- ********* BORRAR AL ACABAR ********* -->
+          <p id="solucion"></p>
+          <!-- ************************************* -->
+
+          <!-- ** SECCIÓ FINAL OCULTA MITJANÇANT CSS-> display:none; ** -->
+          <div id="final_fallo">
+            <p id="frase-final-fallo"></p>
+            <button class="boton" type="button" onclick="window.location.reload()">
+              OTRA PARTIDA
+            </button>
+          </div>
+
+          <div id="final_acierto">
+            <p id="frase-final-acierto"></p>
+            <button class="boton" type="button" onclick="window.location.reload()">
+              OTRA PARTIDA
+            </button>
+          </div>
+          <!-- **************************************** -->
+        </div>
+      </div>
+
+      <div class="ventana-derecha">
+        <p class="titulo-ventana-derecha">LLETRES EMPRADES</p>
+        <div class="container">
+          <p id="lista-letras"></p>
+        </div>
+      </div>
+    </main>
+
+    <script src="./JS/script.js"></script>
+  </body>
+</html>

@@ -1,0 +1,132 @@
+body {
+    background-image: url(../IMG/fondo.jpg);
+    background-size: 100%;
+   
+}
+
+main{
+    display:flex;
+    margin-top: 10px;
+    background-image: url(../IMG/fondo-contacto.jpg);
+    
+}
+
+h1{
+    font-size: 2.4rem;
+    font-weight: bolder;
+    margin-bottom: 2rem;
+    text-align: center;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-shadow: #FC0 1px 0 10px;
+    color: rgb(78, 149, 7);
+}
+
+.ventana-izquierda{
+    background-color: rgb(20, 84, 21);
+
+    position:absolute;
+
+    top:60px;
+    left:70px;
+
+    width: 250px;
+    height: 250px;
+    
+    padding: 30px 30px;
+
+    border-radius: 50%;
+}
+
+.titulo-ventana-formulario,
+.titulo-ventana {
+    text-align: center;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 1.8rem;
+    font-weight: bold;
+    color: rgb(255, 255, 255);
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.titulo-ventana {
+  margin-top: 10px;
+  margin-bottom: 0px;
+
+  padding-top: 0px;
+}
+
+.container {
+    vertical-align: middle;
+    font-size: 1rem;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: rgb(255, 252, 252);
+    text-align: center;
+}
+
+input[type=text] {
+    width: 100%;
+    font-size: 1rem;
+    padding: 12px;
+    border: 5px solid rgb(204, 204, 204);
+    border-radius: 2px;
+    box-sizing: border-box;
+    margin-top: 16px;
+    margin-bottom: 26px;
+    resize: vertical;
+  }
+
+  /* input[type=submit], */
+  .boton,
+  .boton2 {
+    background-color:  #2196F3;
+    font-size: 1rem;
+    font-weight: bolder;
+    color: white;
+    padding: 15px 20px;
+    position: relative;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  /* input[type=submit]:hover, */
+  .boton:hover,
+  .boton2:hover {
+    background-color: #bb095c;
+  }
+
+  .boton2 {
+    margin-top: 10px;
+  }
+/* ********************************************** */
+
+  .ventana-derecha {
+    position:absolute;
+    background-color: rgb(20, 161, 22);
+    width: 350px;
+    height: 550px;
+    top:100px;
+    left:480px;
+    padding: 0px 30px;
+    border-radius: 5%;
+  }
+
+  #jugadors,
+  #jugador_actual {
+    background-color: antiquewhite;
+    color: black;
+    font-size: 1.2rem;
+    padding: 30px;
+
+  }
+
+  .ventana-inferior {
+    position:absolute;
+    background-color: rgb(7, 233, 11);
+    width: 250px;
+    height: 240px;
+    top:410px;
+    left:80px;
+    padding: 0px 30px;
+    border-radius: 10%;
+  }
